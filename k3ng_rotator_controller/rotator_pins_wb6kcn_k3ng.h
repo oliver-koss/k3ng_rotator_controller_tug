@@ -39,7 +39,7 @@
 /*----------- elevation pins --------------*/
 #ifdef FEATURE_ELEVATION_CONTROL
   #define rotate_up 8               // goes high to activate rotator elevation up
-  #define rotate_down 9             // goes high to activate rotator elevation down
+  #define rotate_down 12             // goes high to activate rotator elevation down
   #define rotate_up_or_down 27       // goes high when elevation up or down is activated
   #define rotate_up_pwm 0           // optional - PWM UP output - set to 0 to disable (must be PWM capable pin)
   #define rotate_down_pwm 0         // optional - PWM DOWN output - set to 0 to disable (must be PWM capable pin)
